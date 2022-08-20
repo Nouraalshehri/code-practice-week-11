@@ -1,13 +1,91 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: 'Roboto', sans-serif;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background: url(Coding\ Practice\ Week\ 11.png); 
-  }
-   
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background: url(Untitled.png);
+}
+
+.nav {
+  margin-left: -4em;
+}
+
+.content {
+  position: absolute;
+  width: 750px;
+  height: 410px;
+  left: 85px;
+  top: 120px;
+
+  font-family: 'Cormorant Infant';
+  font-weight: 300;
+  font-size: 95px;
+  line-height: 115px;
+  display: flex;
+  align-items: center;
+
+  color: #F5F5F5;
+}
+
+.row {
+  display: inline-table;
+  display: flex;
+  height: 70px;
+  left: 28px;
+  top: 550px;
+  position: absolute;
+  width: 70px;
+  color: #FFFFFF;
+  font-family: 'Cormorant Infant';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 30px;
+  align-items: center;
+
+}
+
+.row img {
+  height: 50px;
+  width: 50px;
+  padding-left: 3em;
+}
+
+.row2 img {
+  height: 50px;
+  width: 50px;
+  padding-left: 3em;
+}
+
+.row2 {
+
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 28px;
+  top: 640px;
+
+  font-family: 'Cormorant Infant';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+
+}
+
+footer {
+  position: absolute;
+  width: 1283px;
+  height: 246px;
+  left: 100px;
+  top: 778px;
+
+}
